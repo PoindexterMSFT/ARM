@@ -123,7 +123,7 @@
                     "description": "The IP Addresses assigned to the domain controllers (a, b). Remember the first IP in a subnet is .4 e.g. 10.0.0.0/16 reserves 10.0.0.0-3. Specify one IP per server - must match numberofVMInstances or deployment will fail."
                 },
                 "defaultValue": "10.0.1.4"
-            },
+            }
         },
     "variables": {
         "networkInterfaceName": "NIC",
